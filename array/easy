@@ -1,0 +1,8 @@
+Array Partition I
+数组切片：nums[::2],没2个取一个
+数组排序：sorted(nums)
+
+
+26. Remove Duplicates from Sorted Array
+1、考虑删除元素后该元素后面的坐标减1：从后往前删除
+2、双指针，一个循环，一个计数。
