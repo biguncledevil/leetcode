@@ -4,5 +4,10 @@ Array Partition I
 
 
 26. Remove Duplicates from Sorted Array
-1、考虑删除元素后该元素后面的坐标减1：从后往前删除
+1、考虑删除元素后该元素后面的坐标减1  for i in range(len(nums)-1,-1,-1):：从后往前删除
 2、双指针，一个循环，一个计数。
+  注意空数组情况
+ 
+27. Remove Element
+同26
+3、按顺序判断，若该元素要删除，取末尾的元素替换
