@@ -6,8 +6,7 @@ Array Partition I
 26. Remove Duplicates from Sorted Array
 1、考虑删除元素后该元素后面的坐标减1  for i in range(len(nums)-1,-1,-1):：从后往前删除
 2、双指针，一个循环，一个计数。
-  注意空数组情况
- 
+  注意空数组情况 
 27. Remove Element
 同26
 3、按顺序判断，若该元素要删除，取末尾的元素替换
@@ -17,11 +16,36 @@ Array Partition I
 1、二分法
 2、新建一个比target小的数组，返回该数组长度
 
+
+53. Maximum Subarray
+1、双变量，一个为当前最大值，一个是累加的子序列值，小于0时清零。
+
+
+66. Plus One
+1、从后往前判断元素是否为9
+
+
+88. Merge Sorted Array
+1、从后往前进行判断，依次填入最终数组中
+2、合并、排序
+
+
+118. Pascal's Triangle
+1、a = [None for _ in range(n)],列表初始化； append列表
+
+
+
+
 121. Best Time to Buy and Sell Stock
 1、暴力解法：后面元素减前面元素所有的值
 2、每一天的最大利益：两个变量，最小价格和最大利益
 3、价格差值：每一天和前一天的价格差值。累加几次就是求这一天与前几天的价格差值，求其最大值。
-
 122. Best Time to Buy and Sell Stock II
 价格差值，差值数组的正值相加。
+
+
+169. Majority Element
+1、排序后取数组中间的元素
+2、用列表，统计每个值出现的个数。
+3、多数投票?多数元素是大于数组长度一半的，是它就计数加一，不是就减一。
 
