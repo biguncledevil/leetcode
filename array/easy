@@ -11,3 +11,17 @@ Array Partition I
 27. Remove Element
 同26
 3、按顺序判断，若该元素要删除，取末尾的元素替换
+
+
+35. Search Insert Position
+1、二分法
+2、新建一个比target小的数组，返回该数组长度
+
+121. Best Time to Buy and Sell Stock
+1、暴力解法：后面元素减前面元素所有的值
+2、每一天的最大利益：两个变量，最小价格和最大利益
+3、价格差值：每一天和前一天的价格差值。累加几次就是求这一天与前几天的价格差值，求其最大值。
+
+122. Best Time to Buy and Sell Stock II
+价格差值，差值数组的正值相加。
+
