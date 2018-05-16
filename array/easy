@@ -1,3 +1,6 @@
+
+
+
 Array Partition I
 数组切片：nums[::2],没2个取一个
 数组排序：sorted(nums)
@@ -32,8 +35,8 @@ Array Partition I
 
 118. Pascal's Triangle
 1、a = [None for _ in range(n)],列表初始化； append列表
-
-
+119. Pascal's Triangle II
+这个要求数学的理解。初始化任意长度数组：a=[0]*length(初始化元素为0）
 
 
 121. Best Time to Buy and Sell Stock
@@ -43,6 +46,13 @@ Array Partition I
 122. Best Time to Buy and Sell Stock II
 价格差值，差值数组的正值相加。
 
+
+1、Two Sum
+1、暴力解法
+2、dict,
+3、HASHTAB
+167. Two Sum II - Input array is sorted
+对于有序，可通过设置前后两个指针，若大于目标值就减少大指针，小于目标值就增大小指针
 
 169. Majority Element
 1、排序后取数组中间的元素
