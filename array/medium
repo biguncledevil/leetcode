@@ -1,0 +1,6 @@
+33 Search in Rotated Sorted Array   
+1.找最小点
+2.考虑不能直接用二分查找的原因：比较绕
+
+34 Find First and Last Position of Element in Sorted Array
+找两个坐标
