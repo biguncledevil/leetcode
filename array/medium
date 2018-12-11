@@ -20,8 +20,25 @@
 39. Combination Sum  递归 很恐怖
 40. Combination Sum Ⅱ
 78. Subsets
+90. Subsets Ⅱ
 A general approach to backtracking questions in Java
 https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
+
+48. Rotate Image
+顺时针转90°： 先上下对称交换，再沿对角线交换
+
+54. Spiral Matrix
+理解遍历过程，使用direction方向数组
+59. Spiral MatrixⅡ
+
+55. Jump Game
+1.双指针
+2.从后往前递减
+
+56. Merge Intervals
+先排序，新点在于这个sort。
+两种sort:https://leetcode.com/problems/merge-intervals/discuss/21242/C%2B%2B-10-line-solution.-easing-understanding
+https://leetcode.com/problems/merge-intervals/discuss/21488/My-easy-C%2B%2B-solution
 
 75.sort colors 一次遍历
 
