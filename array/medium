@@ -43,7 +43,7 @@ https://leetcode.com/problems/merge-intervals/discuss/21488/My-easy-C%2B%2B-solu
 62. Unique Path
 dynamaic programming。每一格都求出路径数。
 63. Unique PathⅡ
-
+64. Minimum Path Sum
 
 75.sort colors 一次遍历
 
