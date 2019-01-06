@@ -45,6 +45,9 @@ dynamaic programming。每一格都求出路径数。
 63. Unique PathⅡ
 64. Minimum Path Sum
 
+73. Set Matrix Zeroes
+用单变量存储第一行第一列的置零情况，然后用第一行第一列存储每一列一行的置零情况
+
 75.sort colors 一次遍历
 
 120.Triangle
